@@ -1,10 +1,10 @@
 # Update: 
-The npm have been updated to work with the newest update of discord.js v12!
+The npm have been updated to work with the newest update of discord.js v13!
 
 Note: If the bot have muted someone for 3hr, 4min have passed then randomly the bot went offline, do not forget to remove the role from user once the rest 90min are gone or the it's muted forever! (will modify this later)
 
-Any other issues, please open it on [Github](https://github.com/RPGTheGreat/anti-spam)!
-## antispam-guard.js
+
+## discantispam.js
 A simple module based on MirageZoe module. i will add ban, kick and more futures!
 
 **DISCLAMER:** You can only setup 1 set of configuration per client. (That means that you can't configure settings for each server for now. You can only modify in which guild checker is run and in which checker is not run.) 
@@ -13,7 +13,7 @@ A simple module based on MirageZoe module. i will add ban, kick and more futures
 ## How to add this to your node_modules:
 To install this module type in your console command below:
 ```
-npm i antispam-guard
+npm i discantispam
 ```
 
 ## An example of how to set up:
@@ -21,7 +21,7 @@ Below you will find an example that would explain everything and what you must s
 
 ```js
 const Discord = require('discord.js');
-const antispam = require('antispam-guard'); // Requiring this module.
+const antispam = require('discantispam'); // Requiring this module.
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -118,10 +118,3 @@ antispam(client, {
 **NOTE:** The module **will** throw errors for assigning incorect types to configuration values.<br>
 <br>
 
-P.S: If you have any issues, bugs or trouble setting the module up. feel free to open an issue on [Github](https://github.com/RPGTheGreat/anti-spam)
-
-P.S 2: This is just a release that is modified by me to suit the best my needs. If you find it on your taste, I'm happy. I'm not about to add complicated things only if I need them.
-
-P.S 3: Remember if you don't get any notification in #mod-logs, that means you haven't added with lowercase the name of  logchannel in config (this is because discord channels cannot have uppercase for some reasons but voice channels can.)
-
-P.S 4: If you have any problem join our support server [Discord](https://discord.gg/yqAGXbz)

@@ -1,5 +1,5 @@
 {
-  "name": "antispam-guard",
+  "name": "discantispam",
   "version": "3.6.0",
   "description": "A simple module help you to make automoderation very easily",
   "main": "antispam.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RPGTheGreat/anti-spam.git"
+    "url": "git+https://github.com/NOXITB/discantispam"
   },
   "keywords": [
     "discord",
@@ -18,12 +18,12 @@
     "spam",
     "discord.js"
   ],
-  "author": "RPGTheGreat",
+  "author": "Noxitb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RPGTheGreat/anti-spam/issues"
+    "url": "https://github.com/NOXITB/discantispam/issues"
   },
-  "homepage": "https://github.com/RPGTheGreat/anti-spam#readme",
+  "homepage": "https://github.com/NOXITB/discantispam#readme",
   "dependencies": {
     "discord.js": "^12.3.1"
   }
